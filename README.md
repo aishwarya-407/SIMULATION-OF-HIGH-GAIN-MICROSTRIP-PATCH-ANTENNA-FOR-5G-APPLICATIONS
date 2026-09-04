@@ -7,25 +7,26 @@ The antenna is designed and simulated using ANSYS HFSS. The design process inclu
 Design Specifications
 
 Parameter| Value
-Operating Frequency| 28 GHz
-Substrate Height| 0.2 mm
-Substrate Type| Dielectric
-Relative Permittivity (εr)| 2.2*
-Simulation Software| ANSYS HFSS
-Feeding Technique| Microstrip Feed
-Feed Impedance| 50 Ω
+
+- Operating Frequency| 28 GHZ,
+- Substrate Height| 0.2 mm,
+- Substrate Type| Dielectric,
+- Relative Permittivity (εr)| 2.2*,
+- Simulation Software| ANSYS HFSS,
+- Feeding Technique| Microstrip Feed,
+- Feed Impedance| 50 Ω
 
 *Use εr = 2.2 only if your dielectric substrate is RT/Duroid 5880.
 
 Objectives
 
- Design a microstrip patch antenna operating at 28 GHz.
- Calculate patch and substrate dimensions using standard antenna equations.
- Model the antenna in ANSYS HFSS.
- Design a 50 Ω microstrip feed line.
- Optimize the antenna for improved impedance matching and radiation performance.
- Analyze S11, VSWR, bandwidth, gain, directivity, and radiation efficiency.
- Obtain 2D and 3D radiation patterns.
+- Design a microstrip patch antenna operating at 28 GHz.
+- Calculate patch and substrate dimensions using standard antenna equations.
+- Model the antenna in ANSYS HFSS.
+- Design a 50 Ω microstrip feed line.
+- Optimize the antenna for improved impedance matching and radiation performance.
+- Analyze S11, VSWR, bandwidth, gain, directivity, and radiation efficiency.
+- Obtain 2D and 3D radiation patterns.
 
 Antenna Dimension Calculations
 
@@ -85,39 +86,42 @@ The calculated dimensions are used as the initial geometry in ANSYS HFSS. The an
 
 The simulation setup includes:
 
- Creating the dielectric substrate with 0.2 mm height.
- Modeling the microstrip patch.
- Creating the ground plane.
- Designing the 50 Ω feed line.
- Assigning material properties.
- Defining the excitation/port.
- Creating the surrounding air region.
- Applying a radiation boundary.
- Setting the solution frequency to 28 GHz.
- Performing adaptive meshing and simulation.
- Analyzing the simulated antenna parameters.
- Optimizing the dimensions and feed position to improve performance.
+ - Creating the dielectric substrate with 0.2 mm height.
+ - Modeling the microstrip patch.
+  - Creating the ground plane.
+  - Designing the 50 Ω feed line.
+  - Assigning material properties.
+  - Defining the excitation/port.
+  - Creating the surrounding air region.
+  - Applying a radiation boundary.
+  - Setting the solution frequency to 28 GHz.
+  - Performing adaptive meshing and simulation.
+ - Analyzing the simulated antenna parameters.
+ - Optimizing the dimensions and feed position to improve performance.
 
 Performance Parameters
+
 The simulated antenna is evaluated using:
 
- S11 / Return Loss
- VSWR
- Bandwidth
- Gain
- Directivity
- Radiation Efficiency
- 2D Radiation Pattern
- 3D Radiation Pattern
+ - S11 / Return Loss
+ - VSWR
+ - Bandwidth
+ - Gain
+ - Directivity
+- Radiation Efficiency
+ - 2D Radiation Pattern
+ - 3D Radiation Pattern
 
 Tools Used
 - ANSYS HFSS – Electromagnetic antenna modeling and simulation
 - MATLAB – Antenna dimension calculations
 
 Applications
+
 The proposed antenna is intended for potential applications in:
- 5G millimeter-wave communication
- High-speed wireless communication
- 28 GHz wireless systems
- mmWave communication
- Future wireless communication networks
+
+- 5G millimeter-wave communication.
+- High-speed wireless communication.
+- 28 GHz wireless systems.
+- mmWave communication.
+- Future wireless communication networks.
