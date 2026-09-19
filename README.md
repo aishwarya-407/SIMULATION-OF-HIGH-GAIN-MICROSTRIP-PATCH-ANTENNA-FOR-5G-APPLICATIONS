@@ -18,6 +18,11 @@ Parameter| Value
 
 *Use εr = 2.2 only if your dielectric substrate is RT/Duroid 5880.
 
+Tools Used
+
+- ANSYS HFSS – Electromagnetic antenna modeling and simulation
+- MATLAB – Antenna dimension calculations
+
 Objectives
 
 - Design a microstrip patch antenna operating at 28 GHz.
@@ -99,6 +104,18 @@ The simulation setup includes:
  - Analyzing the simulated antenna parameters.
  - Optimizing the dimensions and feed position to improve performance.
 
+ Design Optimization
+
+The theoretical dimensions provide the initial antenna geometry. The design is then optimized through HFSS simulation.
+
+The parameters considered for optimization include:
+
+- Patch length
+- Patch width
+- Feed-line width
+- Feed-line length
+- Feed position
+
 Performance Parameters
 
 The simulated antenna is evaluated using:
@@ -111,10 +128,6 @@ The simulated antenna is evaluated using:
 - Radiation Efficiency
  - 2D Radiation Pattern
  - 3D Radiation Pattern
-
-Tools Used
-- ANSYS HFSS – Electromagnetic antenna modeling and simulation
-- MATLAB – Antenna dimension calculations
 
 Applications
 
