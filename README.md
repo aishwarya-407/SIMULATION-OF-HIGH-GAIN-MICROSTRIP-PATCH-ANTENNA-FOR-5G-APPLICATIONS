@@ -9,7 +9,7 @@ Design Specifications
 Parameter| Value
 
 - Operating Frequency| 28 GHZ,
-- Substrate Height| 0.2 mm,
+- Substrate Height| 0.25 mm,
 - Substrate Type| Dielectric,
 - Relative Permittivity (εr)| 2.2*,
 - Simulation Software| ANSYS HFSS,
@@ -137,8 +137,4 @@ The proposed antenna is intended for potential applications in:
 - High-speed wireless communication.
 - 28 GHz wireless systems.
 - mmWave communication.
-- Future wireless communication networks.
-
-## Project Demonstration Videos
-
-[View Project Videos on Google Drive](https://drive.google.com/drive/folders/1avhkLUmbTZ3xwiL_X4nfYSdzec4frhgb?usp=sharing)
+- Future wireless communication networks
